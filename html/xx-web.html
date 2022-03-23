@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xx-web</title>
+</head>
+<style>
+    .nav {
+        color: rgb(32, 162, 167);
+    }
+
+</style>
+<body>
+    <h4 id="1">鬼刀-风铃公主</h4>
+    <h4 id="1" class="nav">鬼刀-风铃公主</h4>
+    <img src="../image/002.jpg" alt="鬼刀风铃公主" title="风铃公主" width="500" border="5"><br>
+    <strong>2021/12/4</strong><br>
+    <u>16:35</u><br>
+    <i>星期六</i><br>
+    <strong><u>加粗+下划线</u></strong><br>
+    <a href="123.html" target="_blank"> 跳到123网页</a><br>
+    <a href="123.html" target="_blank"> <img src="../image/002.jpg" alt="鬼刀风铃公主" title="风铃公主" width="200"><br></a><br>
+    <table align="left" border="" cellpadding="10" cellspacing="0" width="400" height="100">
+        <thead>
+            <tr>
+                <th>计通</th>
+                <th>班级</th>
+                <th>人数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" width="140">网络工程</td>
+                <td>2001</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>34</td>
+            </tr>
+        </tbody>
+    </table><br><br><br><br><br><br><br>
+    <form>
+        <h4>身份信息</h4>
+        <table>
+            <tr>                                <!--姓名-->  
+                <td>姓名：</td>
+                <td>
+                    <input type="text" value="请输入姓名">
+                </td>
+            </tr>
+            <tr>                                <!--性别-->
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="sex" id="nan"><label for="nan">男</label>
+                    <input type="radio" name="sex" id="nv"><label for="nv">女</label>   
+                </td>
+            </tr>
+            <tr>                                <!--出生年月-->
+                <td>出生年月：</td>
+                <td>
+                    <select>
+                        <option>-请输入年份-</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                    </select>
+                    <select>
+                        <option>-请输入月份-</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <select>
+                        <option>-请输入日期-</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>                                <!--兴趣爱好-->
+                <td>兴趣爱好：</td>
+                <td>
+                    <input type="checkbox" name="like" >吃饭
+                    <input type="checkbox" name="like" >睡觉
+                    <input type="checkbox" name="like" >玩
+                    <input type="checkbox" name="like" checked="checked">无
+                </td>
+            </tr>
+            <tr>                                <!--个人说明-->
+                <td>个人说明：</td>
+                <td>
+                    <textarea>-介绍一下自己-</textarea>
+                </td>
+            </tr>
+            <tr>                                <!--提交-->
+                <td></td>
+                <td>
+                    <input type="submit" value="提交">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <a href="#1"> 回到顶部</a>
+    <!-- &nbsp;代表空格 &lt;代表< &gt;代表> 本段文字不会显示在网页上（Ctrl+/）-->
+</html>
